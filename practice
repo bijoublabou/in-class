@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prompt and if()</title>
+
+	<script>
+		
+		var name =prompt("what is your name?");
+		console.log(name);
+
+		var quest = prompt("what is your quest?");
+		console.log(quest);
+
+		if(name == "Bijou"){
+		   console.log("Welcome, Princess Bijou!");
+		} else {
+			//old school string concantenation
+			//console.log("Hello, " + name + ".");
+
+			// new hotness w /template literals
+			console.log('hello, ${name}.');
+		}
+
+		var name =prompt("knock ...knock");
+		console.log(question);
+
+		var question = prompt("who's there?");
+		console.log(name);
+
+		if(name == "Bijou") {
+			console.log(" Welcome, Princess!!!");
+		} else {
+			console.log("Get out Now!!!, ${name}.");
+		}
